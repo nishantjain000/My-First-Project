@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(25, 186, 87, 0.6));
+    height: 100%;
+    width: 100%;
+}
+
+.main nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+   }
+.logo{
+    position: absolute;
+    left: 14px;
+    top: 10px;
+}
+h1 {
+    top: 15px;
+    font-size: 3vh;
+   
+    animation: lc 2.5s infinite;
+    color: black;
+}
+@keyframes lc {
+    30% {
+        color: #fff;
+        font-size: 5vh;
+    }
+
+    100% {
+        color: #00bf63;
+        font-size: 3vh;
+    }}
+    nav h2{
+        padding: 1vh;
+        margin-top: 1vh;
+        margin-right: 4vh;
+        color: #00bf63;
+        border: white 3px solid;
+        border-radius: 20px;
+        font-size: 2.8vh;
+        font-weight: 900;
+    }
+    nav h2 span{
+        color: #fff;
+        animation: csc 3s infinite;
+    }
+    @keyframes csc {
+        50%{
+            color: #fff;
+        }
+        100%{
+            color: #000;
+        }
+    }
+    .ico{
+             width: 100%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 8px;
+
+            }
+            .ico i{
+                            margin-left: 42.5vh;
+                font-size: 5.3vh;
+             color: #fff;
+            }
